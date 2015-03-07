@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Walkway";
+    src: url("fonts/Walkway_Bold.ttf");
+}
+
+@font-face {
+    font-family: "Ostrich";
+    src: url("fonts/ostrich-regular.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand-Light.otf");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-SemiBold.ttf");
+}
+
+body {
+    margin: 0 auto; /* To eliminate pre-existing margins on the page */
+    font: 20px 'Quicksand'; /* Font size and font family */
+    font-weight: 400; /* Normal weight */
+    color: #000000; /* Font color is black */
+}
