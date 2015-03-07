@@ -28,20 +28,26 @@ body {
     font: 20px 'Quicksand'; /* Font size and font family */
     font-weight: 400; /* Normal weight */
     color: #000000; /* Font color is black */
+    background-image: url("images/dark_embroidery.png");
+    background-repeat: repeat;
+}
+
+header {
+    background-color: #b2bebf;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    display: block;
+    height: 60px;
 }
 
 div#header-title {
-    background-color: #b2bebf;
-    width: 100%;
-    height: 1em;
-    z-index: 2;
-    position: fixed;
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 5px;
     font: 30px 'Walkway';
     float: left;
+    display: inline-block;
 }
 
 div#header-title a:link {
@@ -83,4 +89,32 @@ nav a:visited {
 nav a:hover {
     text-decoration: none;
     font: 35px 'OstrichBold';
+}
+
+main {
+    padding-top: 60px;
+    display: block;
+}
+
+section#welcome {
+   width: 100%;
+   height: 340px;
+   background-image: url('images/nature.jpg');
+   background-position: center; /* Change this depending on how you want the image to be positioned */
+   position: relative;
+}
+
+section#welcome h1{
+    font: 50px 'Raleway';
+    text-align: center;
+}
+
+div#welcome-text {
+  width: 100%;
+  position: absolute;
+    vertical-align: middle;
+    z-index: 1;
+    font: 30px 'Quicksand';
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000; /* Add shadow around the text so it is more visible against the background image */ 
 }
