@@ -66,6 +66,8 @@ nav {
     display: inline-block;
     float: right;
     font: 35px 'Ostrich';
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 nav ul {
@@ -104,17 +106,31 @@ section#welcome {
    position: relative;
 }
 
-section#welcome h1{
+h1{
     font: 50px 'Raleway';
     text-align: center;
+    text-shadow: none;
 }
 
 div#welcome-text {
-  width: 100%;
-  position: absolute;
+    width: 100%;
+    position: absolute;
     vertical-align: middle;
     z-index: 1;
     font: 30px 'Quicksand';
-  text-align: center;
-  text-shadow: 2px 2px 2px #000000; /* Add shadow around the text so it is more visible against the background image */ 
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000; /* Add shadow around the text so it is more visible against the background image */ 
 }
+
+section#about {
+    color: #91a3b0;
+    width: 100%;
+    position: absolute;
+    vertical-align: middle;
+    z-index: 1;
+    font: 30px 'Quicksand';
+    text-align: center;
+    text-shadow: 2px 2px 2px #ffffff; /* Add shadow around the text so it is more visible against the background image */
+    padding-bottom: 50px;
+}
+
