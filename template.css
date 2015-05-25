@@ -101,7 +101,7 @@ main {
 section#welcome {
    width: 100%;
    height: 340px;
-   background-image: url('images/nature.jpg');
+   background-image: url('images/guatemala.jpg');
    background-position: center; /* Change this depending on how you want the image to be positioned */
    overflow-x: hidden;
 }
@@ -131,10 +131,12 @@ section#about {
     padding-bottom: 100px;
 }
 
-section#square-vid{
+section#square-vid {
     color: #91a3b0;
     width: 100%;
     font: 30px 'Quicksand';
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 section#portfolio {
