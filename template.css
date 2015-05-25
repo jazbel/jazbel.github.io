@@ -41,7 +41,7 @@ body {
 }
 
 header {
-    background-color: #9194b0;
+    background-color: #E868AA;
     width: 100%;
     z-index: 2;
     position: fixed;
@@ -115,6 +115,7 @@ section#welcome {
 }
 
 h1{
+    color: #E6308E;
     font: 50px 'Raleway';
     text-align: center;
     text-shadow: none;
@@ -131,7 +132,7 @@ div#welcome-text {
 }
 
 section#about {
-    color: #91a3b0;
+    color: #E868AA;
     width: 100%;
     font: 30px 'Quicksand';
     text-align: center;
@@ -140,7 +141,7 @@ section#about {
 }
 
 section#square-vid {
-    color: #91a3b0;
+    color: #E868AA;
     width: 100%;
     font: 30px 'Quicksand';
     padding-bottom: 100px;
