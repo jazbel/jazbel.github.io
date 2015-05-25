@@ -35,13 +35,13 @@ body {
     margin: 0 auto; /* To eliminate pre-existing margins on the page */
     font: 20px 'Quicksand'; /* Font size and font family */
     font-weight: 400; /* Normal weight */
-    color: #000000; /* Font color is black */
+    color: #E868AA; /* Font color is black */
     /*background-image: url("images/dark_embroidery.png");*/
     background-repeat: repeat;
 }
 
 header {
-    background-color: #E868AA;
+    background-color: #9194b0;
     width: 100%;
     z-index: 2;
     position: fixed;
@@ -123,6 +123,7 @@ h1{
 
 div#welcome-text {
     width: 100%;
+    color: #E868AA;
     position: absolute;
     vertical-align: middle;
     z-index: 1;
