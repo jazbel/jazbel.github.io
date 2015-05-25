@@ -131,6 +131,12 @@ section#about {
     padding-bottom: 100px;
 }
 
+section#square-vid{
+    color: #91a3b0;
+    width: 100%;
+    font: 30px 'Quicksand';
+}
+
 section#portfolio {
 	padding: 30px;
 }
