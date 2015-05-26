@@ -29,7 +29,7 @@ main {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
+  //-webkit-filter: grayscale(100%);
 }
 
 body {
