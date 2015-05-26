@@ -23,7 +23,7 @@
     src: url("fonts/Raleway-SemiBold.ttf");
 }
 
-html { 
+main { 
   background: url("images/guatemala.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
