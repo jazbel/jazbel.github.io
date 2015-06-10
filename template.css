@@ -50,6 +50,10 @@ header {
     height: 50px;
 }
 
+div#fun{
+    background-image: url("images/dark_embroidery.png");
+}
+
 div#header-title {
     margin-top: 10px;
     margin-bottom: 10px;
